@@ -1,113 +1,115 @@
 [[CImGui]]
 arch = "aarch64"
-git-tree-sha1 = "072222afadee9f81b38a0329336b58301d8cb402"
+git-tree-sha1 = "f1ad48d8f55defc4277f66ba73a252d8dd26649c"
 libc = "glibc"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "e15b7886cdaf292f5c373cf84a78730f76ba8ecd978e35228dea57ec1a4f7200"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "cc3e97c8fabd4271a1eb2c75b2f63e889a91097ce3f9f68c1d4a99ac5a83215d"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.aarch64-linux-gnu.tar.gz"
 [[CImGui]]
 arch = "aarch64"
-git-tree-sha1 = "277f06b457021ac3eebeb45799f66216ffc7a6cc"
+git-tree-sha1 = "6ca8770f358773dd03ac2de173738353e19ea82e"
 libc = "musl"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "475d6fa822771091c88aa6cfe3e5ab026c28f74b61f1dd31e043d161e23b1377"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.aarch64-linux-musl.tar.gz"
+    sha256 = "527ec9c8934138b50b75d371fec5ecd0b3af5d8bcd42f2e5e741c2f1c4ab702a"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.aarch64-linux-musl.tar.gz"
 [[CImGui]]
 arch = "armv7l"
-git-tree-sha1 = "a27996f9a22db68ad2e94a4e4d598419874b63a6"
+call_abi = "eabihf"
+git-tree-sha1 = "023f53033fd9300fb772ae1d40f6e388a077feae"
 libc = "glibc"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "2cb827ede56933080e54b4d8c3a0725091f1bb1e0c3148a0ea06bf8da59bec3f"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "6eb482ad30f6fc82b735dbf018ab68cd31743828674de1a467b4e8ccc4fed55f"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.armv7l-linux-gnueabihf.tar.gz"
 [[CImGui]]
 arch = "armv7l"
-git-tree-sha1 = "dd0a03f4b5dae4902adf7478fb4dfe3fb10a14d1"
+call_abi = "eabihf"
+git-tree-sha1 = "2cadb2c878d51aec3dfe58351b32dd4b54b7b95d"
 libc = "musl"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "cb81a71f0c7bc6e8f3987479b3b53595e821c26614c6659440f6f3f65b247c19"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "3b7e13700364a7633f63dfa3f41cb5e9f56f7be004ea3ff0f14245b6af9e51f6"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.armv7l-linux-musleabihf.tar.gz"
 [[CImGui]]
 arch = "i686"
-git-tree-sha1 = "c64e3baf3c17d23407799c6cd2124a02bada6423"
+git-tree-sha1 = "c48dbda6e07db4fbed6196543cb15705fb3b1dbb"
 libc = "glibc"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "0bcff6da0df6764da0e02a5470d553c1b8d3c5d68761d9a091ed71a20059f8eb"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.i686-linux-gnu.tar.gz"
+    sha256 = "ad0f21999c7953b18dbb771f37b2b76b0601bc3ddf7e1440729d538500a28e91"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.i686-linux-gnu.tar.gz"
 [[CImGui]]
 arch = "i686"
-git-tree-sha1 = "855278b56209a7fe516f8c4ebe77a76d8ad435ea"
+git-tree-sha1 = "5302041be91cc3364831976a2befc0e4275e8d53"
 libc = "musl"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "15b75590da4863d8c108f3774859d276a8826ec3e03fd55d11c10c0c9050f250"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.i686-linux-musl.tar.gz"
+    sha256 = "27c4c25d8f8a39d977583de87121bbf2a987964e354f4dbc32d68f95ae7de9d2"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.i686-linux-musl.tar.gz"
 [[CImGui]]
 arch = "i686"
-git-tree-sha1 = "c49e4055c225aa877e9b20bfee2d7fcdbfca8eea"
+git-tree-sha1 = "e5d11a966a0ad3d5662c7427871181c8cffd9b9a"
 os = "windows"
 
     [[CImGui.download]]
-    sha256 = "3db15d9590fa95a128e0057ebf8c73e0a9ea4561ea4abf4916667a269e027449"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.i686-w64-mingw32.tar.gz"
+    sha256 = "0dbc85e7e6b4f030f85f73aa5f85cc339e89febdb94c3c87fd023662401cae29"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.i686-w64-mingw32.tar.gz"
 [[CImGui]]
 arch = "powerpc64le"
-git-tree-sha1 = "7f9e5569e2ff8a837215e8dfa28a8d4a5f264958"
+git-tree-sha1 = "ca9725217a577184cbb3c10a2003ec260fd1f246"
 libc = "glibc"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "08d41d179df31b47b9a1f0bb7f9fec09b2a765f91cf6b45635eddc94d8bf5fdd"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "a44b918436ad676545aeafdb4d5182d7d0c9397c0f72640acae18686a72e92d0"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.powerpc64le-linux-gnu.tar.gz"
 [[CImGui]]
 arch = "x86_64"
-git-tree-sha1 = "0dbeeca1ac209cd1bf708c95da8d33423d95dad8"
+git-tree-sha1 = "d3100d7050700964e317ea7de6b4d73ccf3ae2ef"
 os = "macos"
 
     [[CImGui.download]]
-    sha256 = "c2a4fb32a8fb80d3b3422d6ecee023dd67ab10219280c0ccc6f4a0b72f99bbf9"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "b1177d5c5227f0947f98dfeef45e6004ed2eeb3c7309ef7e615789ca068af033"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.x86_64-apple-darwin.tar.gz"
 [[CImGui]]
 arch = "x86_64"
-git-tree-sha1 = "89767ab8e58ff81d6deb6d91e0eaa412009963f4"
+git-tree-sha1 = "0e6fd9619b85ca51c6999e0b15be8f5e9251aaa8"
 libc = "glibc"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "afff0be634520fbecc2f85177c1b6db634653ca0d009262a0b4d644015f7cb78"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "953badede22d16ef03a7ed691cfd70004be28cf5c66c9ea1e90bf10d8a9b024f"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.x86_64-linux-gnu.tar.gz"
 [[CImGui]]
 arch = "x86_64"
-git-tree-sha1 = "5ed0a6cb5d7f8a75ed1b589047d3c40510dba38d"
+git-tree-sha1 = "68ab2c46989de3e9cbe5abe74d8189ae11ba8306"
 libc = "musl"
 os = "linux"
 
     [[CImGui.download]]
-    sha256 = "ac15a01062278259411e3fc7ffa1c94119d147a46fc052fbc89794c3b5ed09d3"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.x86_64-linux-musl.tar.gz"
+    sha256 = "4d5a71a92834757a2cb5dca2e299881c6c6909ec99d3205bf58482b06728f2cd"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.x86_64-linux-musl.tar.gz"
 [[CImGui]]
 arch = "x86_64"
-git-tree-sha1 = "013b69c8f022830cc9d99cac96eb2b4a7a8ce54d"
+git-tree-sha1 = "434533c7ec8fa7c359754b3747b36aff27253059"
 os = "freebsd"
 
     [[CImGui.download]]
-    sha256 = "96859cc8cb2848e9ee0ef1cb030038acf375b715824553f0a9b739c6b04dff79"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "ccd87a53c67c8924ec29eae013666a14bdb9f8d2bb6da8946322cbe2240cb77d"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.x86_64-unknown-freebsd.tar.gz"
 [[CImGui]]
 arch = "x86_64"
-git-tree-sha1 = "d47e9affaed6dd0e59dff721ebb86dd8347b057f"
+git-tree-sha1 = "d94c52f336f108dde7d330d65593b7495aaf6615"
 os = "windows"
 
     [[CImGui.download]]
-    sha256 = "95a11e073719dee4cc99abb55cae3a63cf3e8e46cf6e73504dc7dd8098ea63b5"
-    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.78.0+0/CImGui.v1.78.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "d11c2519dd85ebd676ce56222b64f678c961338b38dd50975cdb44a82f19872a"
+    url = "https://github.com/JuliaBinaryWrappers/CImGui_jll.jl/releases/download/CImGui-v1.79.0+0/CImGui.v1.79.0.x86_64-w64-mingw32.tar.gz"
